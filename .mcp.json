@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-substack-scraper": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-substack-scraper"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

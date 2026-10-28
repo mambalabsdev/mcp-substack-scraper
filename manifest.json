@@ -1,0 +1,37 @@
+{
+  "manifest_version": "0.3",
+  "name": "mcp-substack-scraper",
+  "version": "1.0.0",
+  "description": "MCP server for Substack Scraper. Read Substack publications and posts, or search Substack by keyword: subscriber counts, paid plan prices, and every post with date, paid flag, likes, comments, and restacks. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mambalabsdev/mcp-substack-scraper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-substack-scraper"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "build/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/build/index.js"
+      ],
+      "env": {
+        "APIFY_TOKEN": "${user_config.apify_token}"
+      }
+    }
+  },
+  "user_config": {
+    "apify_token": {
+      "type": "string",
+      "title": "Apify API Token",
+      "description": "Apify API token for running the actor",
+      "sensitive": true,
+      "required": false
+    }
+  }
+}

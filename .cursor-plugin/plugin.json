@@ -1,0 +1,30 @@
+{
+  "name": "mcp-substack-scraper",
+  "displayName": "Substack Scraper",
+  "version": "1.0.0",
+  "description": "MCP server for Substack Scraper. Read Substack publications and posts, or search Substack by keyword: subscriber counts, paid plan prices, and every post with date, paid flag, likes, comments, and restacks. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-substack-scraper",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "substack",
+    "newsletter",
+    "substack-scraper",
+    "creator-economy",
+    "sponsorship"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "substack",
+    "newsletter",
+    "substack-scraper",
+    "creator-economy"
+  ],
+  "mcpServers": ".mcp.json"
+}

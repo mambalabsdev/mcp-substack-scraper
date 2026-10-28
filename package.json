@@ -1,0 +1,50 @@
+{
+  "name": "@mambalabsdev/mcp-substack-scraper",
+  "version": "1.0.0",
+  "description": "MCP server for Substack Scraper. Read Substack publications and posts, or search Substack by keyword: subscriber counts, paid plan prices, and every post with date, paid flag, likes, comments, and restacks. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-substack-scraper": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "substack",
+    "newsletter",
+    "substack-scraper",
+    "creator-economy",
+    "sponsorship",
+    "clay",
+    "apify"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/substack-scraper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-substack-scraper"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-substack-scraper"
+}

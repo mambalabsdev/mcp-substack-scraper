@@ -103,7 +103,7 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 |---|---|---|---|---|
 | `post-row`, one Substack post returned as a row: from a listed publication or from a search | $0.00115 | $0.001093 | $0.001035 | $0.000977 |
 | `publication-row`, one Substack publication profile returned as a row: name, author, subscriber count as shown, and paid plan prices | $0.002 | $0.0019 | $0.0018 | $0.0017 |
-| `apify-actor-start`, per run start | $0.001 | $0.001 | $0.001 | $0.001 |
+| `apify-actor-start`, per run start | $0.001057 | $0.001057 | $0.001057 | $0.001057 |
 
 `no_results` and `error` rows are free, including the one row a refused input returns.
 

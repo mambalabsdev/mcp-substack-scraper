@@ -2,6 +2,8 @@
 
 [![Smithery](https://smithery.ai/badge/mambabuilt/mcp-substack-scraper)](https://smithery.ai/servers/mambabuilt/mcp-substack-scraper) [![Glama score](https://glama.ai/mcp/servers/mambalabsdev/mcp-substack-scraper/badges/score.svg)](https://glama.ai/mcp/servers/mambalabsdev/mcp-substack-scraper) [![MCP Registry](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry.modelcontextprotocol.io%2Fv0%2Fservers%3Fsearch%3Dcom.mambabuilt%252Fmcp-substack-scraper%26limit%3D1&query=%24.servers%5B0%5D._meta%5B%22io.modelcontextprotocol.registry%2Fofficial%22%5D.status&label=mcp%20registry&color=blue)](https://registry.modelcontextprotocol.io/v0/servers?search=com.mambabuilt/mcp-substack-scraper&limit=1) [![npm version](https://img.shields.io/npm/v/@mambalabsdev/mcp-substack-scraper)](https://www.npmjs.com/package/@mambalabsdev/mcp-substack-scraper) [![npm downloads](https://img.shields.io/npm/dm/@mambalabsdev/mcp-substack-scraper)](https://www.npmjs.com/package/@mambalabsdev/mcp-substack-scraper) [![license](https://img.shields.io/github/license/mambalabsdev/mcp-substack-scraper)](https://github.com/mambalabsdev/mcp-substack-scraper/blob/main/LICENSE) [![mcpservers.org](https://img.shields.io/badge/mcpservers.org-listed-blue)](https://mcpservers.org/servers/mambalabsdev/mcp-substack-scraper)
 
+<a href="https://mcprush.com/to/mcp-substack-scraper?ref=badge"><img width="380" height="200" src="https://mcprush.com/badge/mcp-substack-scraper/card.svg" alt="Substack Scraper MCP server" /></a>
+
 An MCP server for the Mamba Labs Substack Scraper actor on Apify. Give it Substack publications or keywords. It returns publication profiles and posts as flat rows.
 
 ## What's Inside

@@ -4,7 +4,7 @@
 
 <a href="https://mcprush.com/to/mcp-substack-scraper?ref=badge"><img width="380" height="200" src="https://mcprush.com/badge/mcp-substack-scraper/card.svg" alt="Substack Scraper MCP server" /></a>
 
-An MCP server for the Mamba Labs Substack Scraper actor on Apify. Give it Substack publications or keywords. It returns publication profiles and posts as flat rows.
+An MCP server for the Mamba Labs [Substack Newsletter and Posts Scraper](https://apify.com/mambalabs/substack-scraper) actor on Apify. Give it Substack publications or keywords. It returns publication profiles and posts as flat rows.
 
 ## What's Inside
 

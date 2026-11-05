@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-substack-scraper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Substack Scraper. Read Substack publications and posts, or search Substack by keyword: subscriber counts, paid plan prices, and every post with date, paid flag, likes, comments, and restacks. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs"
